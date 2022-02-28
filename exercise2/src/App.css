@@ -1,0 +1,22 @@
+.mainTitle {
+  background-color: yellow;
+  font-size: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.littleTitle {
+  background-color: yellow;
+  font-size: small;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.App {
+  border: 1px black solid;
+  width: 400px;
+  padding-left: 20px;
+}
+
+li.isChecked {
+  text-decoration: line-through;
+}

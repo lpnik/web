@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Estée Lauder | Bronze Goddess",
+    "type": "Bronzer",
+    "description": "2 bronzers + highlighter in an all-in-one palette",
+    "image": "../images/EsteeLauderBronzer.jpg",
+    "size": "0.74 oz.",
+    "price": 45.00,
+    "rating": 5
+  }, 
+  {
+    "title": "Nars | Blush Impassioned",
+    "type": "Blush",
+    "description": "Pigmented, healthy-looking colour",
+    "image": "../images/narsBlush.jpg",
+    "size": "0.28 oz.",
+    "price": 30.00,
+    "rating": 4.6
+  }, 
+  {
+    "title": "Dior | Diorskin nude luminizer",
+    "type": "Highlighter",
+    "description": "Highlighter - shimmering glow powder - sparkling pigment-infused",
+    "image": "../images/diorHighlighter.jpg",
+    "size": "0.29 oz.",
+    "price": 50.00,
+    "rating": 4.8
+  }, 
+  {
+    "title": "OPI | Gel Nail Polish Black",
+    "type": "Nail Polish",
+    "description": "Basic black gel nail polish - and basically fabulous!",
+    "image": "../images/opiGelPolish.jpg",
+    "size": "0.5 oz.",
+    "price": 18.99,
+    "rating": 4.4
+  }, 
+  {
+    "title": "YSL | Tatouage Couture Velvet Cream ",
+    "type": "Liquid lipstic",
+    "description": "An ultra-pigmented matte lip stain that cover your lips with creamy velvet color",
+    "image": "../images/yslLipStain.jpg",
+    "size": "0,20 oz.",
+    "price": 39.00,
+    "rating": 3.6
+  }, 
+  {
+    "title": "Gelish | Gel Nail Polish Blush",
+    "type": "Nail Polish",
+    "description": "Gelish stays on nails for up to 3 weeks with no chipping or peeling",
+    "image": "../images/gelishGelPolish.jpg",
+    "size": "0.5 oz",
+    "price": 18.99,
+    "rating": 4.6
+  }
+]
