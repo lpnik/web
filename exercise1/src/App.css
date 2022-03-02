@@ -1,0 +1,246 @@
+.html, body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-position: top;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.headerOuter {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 60px;
+  background-color: #00174D;
+  margin-top: 0px;
+  padding-left: 180px;
+  padding-right: px;
+
+}
+
+.headerInner {
+  display: flex;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerInner > .kuvaKokoHS {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+.headerInner > .menuElement {
+  margin: 20px;
+}
+
+.headerInner > .oikeaPuoli {
+  margin: 20px;
+}
+
+.vasenPuoli {
+    width: 70px;
+}
+
+.nappiTilaa {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border:2px rgb(0, 0, 0) solid;
+  border-radius: 20px;
+  background: #ffffff;
+  margin-top: 13px;
+  margin-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7.5px;
+  
+}
+
+.nappiKirjaudu {
+  margin: 21px;
+}
+
+.nappiValikko {
+  border: 2px rgb(255, 255, 255) solid;
+  background: #00174D;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.uutiset {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  max-width: 980px;
+}
+.taustaTimantti {
+  padding-top: 16px;
+  padding-bottom: 0px;
+  width: 980px;
+  padding-left: 3px;
+  padding-right: 8px;
+  margin-left: 200px;
+}
+
+.taustaTimantti > .otsikkoCaps {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: 700;
+  color: white;
+  background-color: #4e96a4;
+  height: 40px;
+  margin: 2px;
+}
+
+.taustaTimantti > .paivanTimantti {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-small;
+  color: white;
+  background-color: #4e96a4;
+  border: 0px;
+  padding: 16px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  
+}
+
+.taustaMainos {
+  margin-top: 0px;
+  padding-bottom: 16px;
+  width: 980px;
+  padding-left: 3px;
+  padding-right: 8px;
+  margin-left: 200px;
+}
+
+.taustaMainos > .otsikkoCaps {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+  font-weight: 700;
+  color: white;
+  background-color: #4e96a4;
+  height: 40px;
+  margin: 2px;
+}
+
+.taustaMainos > .tekstiMainos {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: xx-small;
+  background-color: #41b8df;
+  border: 0px;
+  padding: 16px;
+  margin-top: 2px;
+}
+
+.paaUutiset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 220px;
+}
+
+.taustaUutiset {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  width: 615px;
+  margin-left: 200px;
+  background-color: white;
+}
+
+.taustaUutiset > .otsikkoKorona {
+  flex: 2;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.taustaUutiset > .otsikkoKorona > .kuvaSosTeMi > .hsSeuraa {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(168, 4, 4);
+  font-size: 16px;
+  height: 28px;
+}
+
+.taustaUutiset > .otsikkoKorona > .kuvaSosTeMi > .hsSeuraa > .circle {
+  color: rgb(168, 4, 4);
+}
+
+
+.taustaUutiset > .otsikkoKorona > .kuvaSosTeMi > .tekstiKorona {
+  font-family: 'Times New Roman', Times, serif;
+  color: #00518d;
+  font-size: 27px;
+  font-weight: bolder;
+}
+.taustaUutiset > .otsikkoKorona > .kuvaSosTeMi > .tekstiKorona > .tekstiSeuranta {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.luetuimmat {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 115px;
+  padding-left: 20px;
+  background-color: white;
+}
+
+.otsikkoLuetuimmat {
+  border-bottom: 3px solid gray;
+}
+
+.numeroinnit {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.numeroinnit > .numero {
+  font-family: 'Times New Roman', Times, serif;
+  color: #4e96a4;
+  font-size: 30px;
+  padding: 16px;
+}
+
+
+
+.otsikkoBold {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.otsikkoBold > .esittely {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+  font-weight: lighter;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+.imghelsinginsanotLogo.jpg {
+  width: 400px;
+}
